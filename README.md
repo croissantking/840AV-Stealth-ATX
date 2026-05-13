@@ -64,7 +64,7 @@ You should cut back and insulate (or desolder) any drive connectors you don't ne
 
 Here, all the connections have been successfully made, and the ATX PCB has been fully screwed down. 
 
-<img width="3024" height="4032" alt="IMG_0667" src="https://github.com/user-attachments/assets/9b94c0b1-f417-4170-9aba-3e4f056eab9d" />
+<img width="3024" height="2935" alt="live-neutral" src="https://github.com/user-attachments/assets/cb2212d0-349c-4df3-b358-c959929cb5fb" />
 
 Turn the assembly around again, and solder two short wires (live and neutral) from the Conversion Board to the ATX PCB. These should be at least 18AWG and preferably 16AWG.
 
