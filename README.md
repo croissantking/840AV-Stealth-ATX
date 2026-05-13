@@ -26,7 +26,7 @@ The PCB replicates the exact dimensions of the original Delta lower PCB, securin
 
 The PCBs in these PSUs are all the same and are labelled ATX400W REV:A5. Some of the components may be slightly different based on the output rating.
 
-If you want, you can modify the Gerbers to fit the mounting locations of your own chosen PSU. You could also drill holes into the board but note that a new connection should be made to the ground plane from each of the new standoff locations if doing this.
+If you want, you can modify the Gerbers to fit the mounting locations of your own chosen PSU. You can also drill holes into the board but note that a new connection should be made to the ground plane from each of the new standoff locations if doing this.
 
 The design reuses the Delta SMP-220DB AC inlet board, and replicates both the original monitor passthrough power relay and fan speed control logic for authentic behaviour.
 
@@ -34,31 +34,31 @@ The 20/24 pin ATX harness is intended to be cut short and looped into the +12V, 
 
 Assembly
 -
-Here are the steps needed to assemble your rebuilt power supply. Note that I'm working with slightly different, pre-release board layout.
+Here are the steps needed to assemble your rebuilt power supply. Note that I'm working with a slightly different pre-release board layout.
 
-<img width="1465" height="638" alt="key" src="https://github.com/user-attachments/assets/f2d96c9e-c65c-4f1d-9844-78756fa682e8" />
+<img width="1050" alt="Circuits" src="https://github.com/user-attachments/assets/1e55210a-4ed3-44ca-bfc0-5e1963afb76e" />
 
-Once you have the bare Conversion Board PCB in your hands, decide if you'll be populating the fan circuit and the CRT relay as shown in the key above. Both circuits are optional. If you are not populating the fan control circuit then your fan should be connected to the ATX PCB. The through hole parts should be taken from the original Delta PSU (apart from the fan header), while SMD should be newly obtained.
+Once you have the bare Conversion Board PCB in your hands, decide if you'll be populating the fan circuit and the CRT relay as shown in the key above. Both circuits are optional. If you are not populating the fan control circuit then your fan should be connected to the ATX PCB. The through hole parts should be taken from the original Delta PSU (apart from the fan header), while SMDs should be newly obtained.
 
-At the minimum you must install the AC inlet connector, this is also taken from the original PSU.
+To install the AC inlet connector, either re-use the one from the original PSU or purchase a new one.
 
-<img width="1391" height="732" alt="minifitjr" src="https://github.com/user-attachments/assets/5112ca10-e081-4ba9-9907-718f94e3f4f2" />
+<img width="950" alt="Circuits2" src="https://github.com/user-attachments/assets/c70cdbd0-3a17-4ce8-b7d6-bd76c96da60c" />
 
 In this corner you'll install the 22-way MiniFit Jr Connector (you can bring this from the old board or purchase new), trimming off the mounting flange on one side in order to make way for a metal standoff. You'll also install a small capacitor and inverter for the soft power circuit.
 
-<img width="800" height="629" alt="IMG_0665" src="https://github.com/user-attachments/assets/c1c45b00-9358-4ca9-ad29-e0977ebea4f7" />
+<img width="701" alt="IMG_0665" src="https://github.com/user-attachments/assets/c1c45b00-9358-4ca9-ad29-e0977ebea4f7" />
 
-I recommend detaching this little washer-type part from the original PCB and soldering it here.
+Detach this little washer-type part from the original PCB and solder it here.
 
 <img width="1024" height="996" alt="populated" src="https://github.com/user-attachments/assets/64c758e3-02f5-47f8-a480-3315fa9ad85e" />
 
-Now that the Conversion Board is populated you can fit the 4x standoffs. Loosely fit the ATX PCB to just the two standoffs nearest the lower edge.
+Now that the Conversion Board is populated you can fit the 4x standoffs. Place the ATX PCB on top and loosely screw it down with just the two standoffs nearest the lower edge.
 
 <img width="4032" height="3024" alt="IMG_0638" src="https://github.com/user-attachments/assets/d00f997d-687a-489b-8b96-7872bb570383" />
 
-From the other side, you can start to trim the wires of your 20/24-pin ATX connector harness to the correct length to connect to the lower PCB. +12V, GND, -12V, +5V, PS_ON and +5VSB are needed; the rest can be tied back, or tucked away and insulated - however you best see fit.
+From the other side, you can start to trim the wires of your 20/24-pin ATX connector harness to the correct length to connect to the lower PCB. +12V, GND, -12V, +5V, PS_ON and +5VSB are needed; the rest can be shortened and insulated or desoldered as you wish. Hinge the ATX PCB upwards in order to get better access to solder.
 
-Hinge the ATX PCB upwards in order to get better access to solder.
+You should cut back and insulate (or desolder) any drive connectors you don't need; the remaining ones will feed through the Delta housing circular cutout.
 
 <img width="4032" height="3024" alt="IMG_0663" src="https://github.com/user-attachments/assets/c2c1dd20-d065-4dd2-b228-3387ee5a7ff2" />
 
@@ -78,15 +78,13 @@ $\color{#FF0000}{IMPORTANT!}$ The two large left-hand heatsinks on the ATX board
 
 Make sure to insulate the ferrite ring with kapton tape (or similar) so that it does not accidentally short out the exposed solder joints on the back of the inlet board.
 
-<img height="450" alt="Screenshot 2026-05-12 at 18 41 04" src="https://github.com/user-attachments/assets/fcec67a8-58ee-4954-a643-12b89c11e5e2" /><img height="450" alt="Screenshot 2026-05-12 at 19 01 33" src="https://github.com/user-attachments/assets/f740bbdf-7416-4867-ae19-50eb5df1aab8" />
+<img width="701" height="450" alt="fan-rewire" src="https://github.com/user-attachments/assets/087eb3de-1284-4f06-b8cf-46eeb04f57cc" />
 
-You can re-use the original fan or a modern replacement (e.g. Noctua). In my build I opted to re-use the original but it needed a longer cable with a modern connector – so I peeled back the sticker over the motor to expose the solder points and swap the cable. Before and after shots shown above.
+You can re-use the original 120mm fan or install a modern replacement (e.g. Noctua). In my build I opted to re-use the original but it needed a longer cable with a three-pin connector for my Conversion Board's new header. So I peeled back the sticker over the motor to expose the solder points and replace the cable.
 
-<img width="850" height="886" alt="Screenshot 2026-05-12 at 18 39 02" src="https://github.com/user-attachments/assets/5cc4250a-8349-4211-ae01-c6a3ee87ad9f" />
+<img width="701" alt="Screenshot 2026-05-12 at 18 39 02" src="https://github.com/user-attachments/assets/5cc4250a-8349-4211-ae01-c6a3ee87ad9f" />
 
-My cable was now sufficiently long enough to plug in whilst the fan was lifted away from its fitted position.
+The cable was now long enough to reach the new header on the Conversion Board, with plenty of slack for ease of installation.
 
 <img width="1223" height="831" alt="Screenshot 2026-05-12 at 19 10 46" src="https://github.com/user-attachments/assets/c3f87157-fb74-42c7-a63d-7d038d1ff632" />
 Here is the PSU fully assembled and ready to use.
-
-I cut off the extra drive connectors I didn't need - and fed the remaining ones through the original circular opening.
