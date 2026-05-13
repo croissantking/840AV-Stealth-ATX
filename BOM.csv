@@ -3,4 +3,4 @@
 "Resistor","1","R76","2K","0603","603-RC0603DR-072KL",""
 "Schottky Diode","1","D2","1A If, 600mV Vf, 30V Vrrm","DO-214AA","863-MBRS130T3G",""
 "Transistor","1","Q151","2SD468","TO-92","",""
-"Connector","1","J3",""
+"Connector","1","J3","","","",""
