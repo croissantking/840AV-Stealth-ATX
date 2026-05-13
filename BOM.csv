@@ -2,6 +2,7 @@
 "Capacitor","1","C1","100nF","0805","",""
 "Inverter","1","U1","74LVC1G04","SOT-23-5","SN74LVC1G04DBVR","https://www.digikey.co.uk/short/q94n5n4v"
 "Varistor","1","R163","250V","","","Obsolete, reuse old part"
+"Zener Diode","1","ZD151","1N5228B","DO-35","","https://www.digikey.co.uk/short/841nhv9d"
 "Diode","1","D151","1N4148","SOD-123","1N4148W-7-F","https://www.digikey.co.uk/short/0tb77nc3"
 "Diode","1","D153","RGP10B","DO-41","","https://www.digikey.co.uk/short/dnzptpbv"
 "Transistor","1","Q151","2SD468","TO-92","","Obsolete, reuse old part"
