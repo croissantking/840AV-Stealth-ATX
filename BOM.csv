@@ -1,4 +1,4 @@
-"Item","Qty","Reference(s)","Value","Size (Imperial)","P/N","Mouser URL"
+"Item","Qty","Reference(s)","Value","Size (Imperial)","P/N","URL"
 "Capacitor","1","C1","100nF","0805","",""
 "Varistor","1","R163","250V","","","Reuse old part"
 "Diode","1","D151","1N4148","SOD-123","1N4148W-7-F","https://mou.sr/4dvnNmq"
