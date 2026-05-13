@@ -5,6 +5,7 @@
 "Diode","1","D151","1N4148","SOD-123","1N4148W-7-F","https://www.digikey.co.uk/short/0tb77nc3"
 "Diode","1","D153","RGP10B","DO-41","","https://www.digikey.co.uk/short/dnzptpbv"
 "Transistor","1","Q151","2SD468","TO-92","","Obsolete, reuse old part"
+"Transistor","1","Q152","D44C8","TO-220","","Obsolete, reuse old part"
 "Connector","1","J1","Molex KK100, 6373","","22-23-2033","https://www.digikey.co.uk/short/rzfj2mbw"
 "Connector","1","J2","Molex KK396, 5273","","09-65-2068","https://www.digikey.co.uk/short/9mqpdqwd"
 "Connector","1","J3","Molex Mini-Fit Jr","","39-29-1227","https://www.digikey.co.uk/short/t949vm2z"
