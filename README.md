@@ -14,32 +14,74 @@ If you are not experienced with mains-powered or high-voltage electronics, do no
 
 <b>Introduction and Outline</b>
 -
-This Conversion Board PCB enables you rebuild a failed Delta SMP-220DB Power Supply, found in your Apple Macintosh Quadra 800/840AV or Power Macintosh 8100, with easily obtainable second hand parts.
+This two-layer 'ATX Conversion Board' PCB enables you rebuild a failed Delta SMP-220DB Power Supply, found in your Apple Macintosh Quadra 800/840AV or Power Macintosh 8100, with easily obtainable second hand parts.
 
-The new PCB replicates the exact dimensions of the original Delta lower PCB, securing to the chassis just as the original. It's designed to have the internals of one of the following Seasonic-based ATX power supplies stood off above it as a mezzanine board:
+<img width="811" height="763" alt="pcb-preview" src="https://github.com/user-attachments/assets/dce4491d-821c-4321-b0f8-a700f960350b" />
+
+The PCB replicates the exact dimensions of the original Delta lower PCB, securing to the chassis just as the original. It's designed to have the internals of one of the following Seasonic-based ATX power supplies stood off above it as a mezzanine board:
 
 - Antec EarthWatts EA-380 / EA-430 / EA-500 (without 'D' suffix)
 - Seasonic SS-350ET / SS-400ET / SS-500ET (ES suffix also OK)
 - Seasonic S12-II 500W
 
-The PCBs in these PSUs are all the same and are labelled ATX400W REV:A5.
+The PCBs in these PSUs are all the same and are labelled ATX400W REV:A5. Some of the components may be slightly different based on the output rating.
 
 If you want, you can modify the Gerbers to fit the mounting locations of your own chosen PSU. You could also drill holes into the board but note that a new connection should be made to the ground plane from each of the new standoff locations if doing this.
 
-The design reuses the Delta SMP-220DB AC inlet board, and replicates both the original monitor passthrough power relay and fan speed control logic.
+The design reuses the Delta SMP-220DB AC inlet board, and replicates both the original monitor passthrough power relay and fan speed control logic for authentic behaviour.
 
 The 20/24 pin ATX harness is intended to be cut short and looped into the +12V, GND, -12V, +5V, PS_ON and +5VSB vias seen at the top of the new PCB. This is so a soft power inverter can be integrated, and also allows the original modular Mac PSU connector to be fitted in its original location.
 
-<img width="833" height="789" alt="Screenshot 2026-04-28 at 00 34 07" src="https://github.com/user-attachments/assets/ff6a154e-95d5-48ac-8437-b4546a5515ec" />
-<br>
-
 Assembly
 -
-Once you have the bare PCB in your hands, decide if you'll be populating the fan circuit and the CRT relay as shown in the key below. Both circuits are optional. If you are not populating the fan control circuit then your fan should be connected to the Seasonic PCB. The through hole parts should be taken from the original Delta PSU (apart from the fan header), while SMD should be newly obtained. Regardless of the above you must install the AC inlet connector, this is also taken from the original PSU.
-<br><br>
-<img width="1465" height="638" alt="key" src="https://github.com/user-attachments/assets/f2d96c9e-c65c-4f1d-9844-78756fa682e8" />
-<br>Populated it looks like this, ignore the bodge wires:
+Here are the steps needed to assemble your rebuilt power supply. Note that I'm working with slightly different, pre-release board layout.
 
-<img width="1271" height="538" alt="Screenshot 2026-05-11 at 23 12 47" src="https://github.com/user-attachments/assets/39d89fc8-5075-4e4f-88dc-8882f231e77c" />
-<br>
+<img width="1465" height="638" alt="key" src="https://github.com/user-attachments/assets/f2d96c9e-c65c-4f1d-9844-78756fa682e8" />
+
+Once you have the bare Conversion Board PCB in your hands, decide if you'll be populating the fan circuit and the CRT relay as shown in the key above. Both circuits are optional. If you are not populating the fan control circuit then your fan should be connected to the ATX PCB. The through hole parts should be taken from the original Delta PSU (apart from the fan header), while SMD should be newly obtained.
+
+At the minimum you must install the AC inlet connector, this is also taken from the original PSU.
+
+<img width="1391" height="732" alt="minifitjr" src="https://github.com/user-attachments/assets/5112ca10-e081-4ba9-9907-718f94e3f4f2" />
+
+In this corner you'll install the 22-way MiniFit Jr Connector (you can bring this from the old board or purchase new), trimming off the mounting flange on one side in order to make way for a metal standoff. You'll also install a small capacitor and inverter for the soft power circuit.
+
+<img width="800" height="629" alt="IMG_0665" src="https://github.com/user-attachments/assets/c1c45b00-9358-4ca9-ad29-e0977ebea4f7" />
+
+I recommend detaching this little washer-type part from the original PCB and soldering it here.
+
+<img width="1024" height="996" alt="populated" src="https://github.com/user-attachments/assets/64c758e3-02f5-47f8-a480-3315fa9ad85e" />
+
+Now that the Conversion Board is populated you can fit the 4x standoffs. Loosely fit the ATX PCB to just the two standoffs nearest the lower edge.
+
+<img width="4032" height="3024" alt="IMG_0638" src="https://github.com/user-attachments/assets/d00f997d-687a-489b-8b96-7872bb570383" />
+
+From the other side, you can start to trim the wires of your 20/24-pin ATX connector harness to the correct length to connect to the lower PCB. +12V, GND, -12V, +5V, PS_ON and +5VSB are needed; the rest can be tied back, or tucked away and insulated - however you best see fit.
+
+Hinge the ATX PCB upwards in order to get better access to solder.
+
+<img width="4032" height="3024" alt="IMG_0663" src="https://github.com/user-attachments/assets/c2c1dd20-d065-4dd2-b228-3387ee5a7ff2" />
+
+Here, all the connections have been successfully made, and the ATX PCB has been fully screwed down. 
+
+<img width="3024" height="4032" alt="IMG_0667" src="https://github.com/user-attachments/assets/9b94c0b1-f417-4170-9aba-3e4f056eab9d" />
+
+Turn the assembly around again, and solder two short wires (live and neutral) from the Conversion Board to the ATX PCB. These should be at least 18AWG and preferably 16AWG.
+
 <img width="4032" height="3024" alt="IMG_0645" src="https://github.com/user-attachments/assets/ae831d0b-ec98-4068-a2d8-ab348d4d42e0" />
+
+The full assembly can now be installed in your Delta housing, and the AC inlet board plugged in to the Conversion Board.
+
+$\color{#FF0000}{IMPORTANT!}$ The two large left-hand heatsinks on the ATX board have a high voltage when the unit is powered up (and for some time after power is disconnected) which will give you a nasty shock if you touch them. Please be extra careful.
+
+<img width="565" height="715" alt="Screenshot 2026-05-12 at 18 22 36" src="https://github.com/user-attachments/assets/401c5e1f-0a63-4bf6-8f0b-08ec8ed00c7d" />
+
+Make sure to insulate the ferrite ring with kapton tape (or similar) so that it does not accidentally short out the exposed solder joints on the back of the inlet board.
+
+<img height="450" alt="Screenshot 2026-05-12 at 18 41 04" src="https://github.com/user-attachments/assets/fcec67a8-58ee-4954-a643-12b89c11e5e2" /><img height="450" alt="Screenshot 2026-05-12 at 19 01 33" src="https://github.com/user-attachments/assets/f740bbdf-7416-4867-ae19-50eb5df1aab8" />
+
+You can re-use the original fan or a modern replacement (e.g. Noctua). In my build I opted to re-use the original but it needed a longer cable with a modern connector – so I peeled back the sticker over the motor to expose the solder points and swap the cable. Before and after shots shown above.
+
+<img width="850" height="886" alt="Screenshot 2026-05-12 at 18 39 02" src="https://github.com/user-attachments/assets/5cc4250a-8349-4211-ae01-c6a3ee87ad9f" />
+
+My cable was now sufficiently long enough to plug in whilst the fan was lifted away from its fitted position.
