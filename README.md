@@ -34,7 +34,9 @@ The 20/24 pin ATX harness is intended to be cut short and looped into the +12V, 
 
 BOM
 -
-Please see BOM.csv for a parts list. I have added these to a list at Digikey here: https://www.digikey.co.uk/en/mylists/list/5MLRWHWYBX
+Please see <a href="https://github.com/croissantking/840AV-Stealth-ATX/blob/main/BOM.csv" target="_blank" rel="noopener noreferrer">BOM.csv</a> for a parts list.
+
+A Digikey cart is available here: https://www.digikey.co.uk/en/mylists/list/5MLRWHWYBX
 
 Assembly
 -
