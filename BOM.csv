@@ -1,5 +1,5 @@
 "Item","Qty","Reference(s)","Value","Size (Imperial)","Mouser P/N","URL"
-"Capacitor","2","C109, C110","47pF","0603","581-06035A470J","https://mou.sr/3XnkNjh"
+"Capacitor","1","C1","100nF","0805","",""
 "Resistor","1","R76","2K","0603","603-RC0603DR-072KL","https://mou.sr/4izl6Rp"
 "Schottky Diode","1","D2","1A If, 600mV Vf, 30V Vrrm","DO-214AA","863-MBRS130T3G","https://mou.sr/4he58uV"
 "Capacitor","1","C157","47nF","0603","581-06035D473K","https://mou.sr/4c1Fkjk"
