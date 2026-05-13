@@ -40,7 +40,7 @@ A Digikey cart is available here: https://www.digikey.co.uk/en/mylists/list/5MLR
 
 Ordering
 -
-Simply download the Gerbers.zip file and then upload this to JLCPCB.
+Simply download the Gerbers.zip file and then upload this to JLCPCB. Pick and Place files have been included for the SMD parts, although it's far more economic to hand solder them yourself.
 
 Assembly
 -
