@@ -38,6 +38,10 @@ Please see <a href="https://github.com/croissantking/840AV-Stealth-ATX/blob/main
 
 A Digikey cart is available here: https://www.digikey.co.uk/en/mylists/list/5MLRWHWYBX
 
+Ordering
+-
+Simply download the Gerbers.zip file and then upload this to JLCPCB.
+
 Assembly
 -
 Here are the steps needed to assemble your rebuilt power supply. Note that I'm working with a slightly different pre-release board layout.
