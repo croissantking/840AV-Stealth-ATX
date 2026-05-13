@@ -32,6 +32,10 @@ The design reuses the Delta SMP-220DB AC inlet board, and replicates both the or
 
 The 20/24 pin ATX harness is intended to be cut short and looped into the +12V, GND, -12V, +5V, PS_ON and +5VSB vias seen at the top of the new PCB. This is so a soft power inverter can be integrated, and also allows the original modular Mac PSU connector to be fitted in its original location.
 
+BOM
+-
+Please see BOM.csv for a parts list. I have added these to a list at Digikey here: https://www.digikey.co.uk/en/mylists/list/5MLRWHWYBX
+
 Assembly
 -
 Here are the steps needed to assemble your rebuilt power supply. Note that I'm working with a slightly different pre-release board layout.
