@@ -85,3 +85,8 @@ You can re-use the original fan or a modern replacement (e.g. Noctua). In my bui
 <img width="850" height="886" alt="Screenshot 2026-05-12 at 18 39 02" src="https://github.com/user-attachments/assets/5cc4250a-8349-4211-ae01-c6a3ee87ad9f" />
 
 My cable was now sufficiently long enough to plug in whilst the fan was lifted away from its fitted position.
+
+<img width="1223" height="831" alt="Screenshot 2026-05-12 at 19 10 46" src="https://github.com/user-attachments/assets/c3f87157-fb74-42c7-a63d-7d038d1ff632" />
+Here is the PSU fully assembled and ready to use.
+
+I cut off the extra drive connectors I didn't need - and fed the remaining ones through the original circular opening.
