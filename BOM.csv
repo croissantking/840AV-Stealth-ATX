@@ -1,6 +1,6 @@
 "Item","Qty","Reference(s)","Value","Size (Imperial)","P/N","Mouser URL"
 "Capacitor","1","C1","100nF","0805","",""
-"Resistor","1","R76","2K","0603","603-RC0603DR-072KL",""
+"Varistor","1","R163","250V","","Reuse old part",""
 "Diode","1","D151","1N4148","D_SOD-123","1N4148W-7-F","https://mou.sr/4dvnNmq"
-"Transistor","1","Q151","2SD468","TO-92","","Re-Use Old Part"
+"Transistor","1","Q151","2SD468","TO-92","Reuse Old Part",""
 "Connector","1","J3","Molex Mini-Fit Jr","","39-29-1227","https://mou.sr/4noydsk"
