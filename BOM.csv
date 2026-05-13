@@ -3,5 +3,5 @@
 "Varistor","1","R163","250V","","","Reuse old part"
 "Diode","1","D151","1N4148","SOD-123","1N4148W-7-F","https://mou.sr/4dvnNmq"
 "Diode","1","D153","RGP10B","DO-41","","https://www.digikey.com/short/zmz444wz"
-"Transistor","1","Q151","2SD468","TO-92","","Reuse old part"
+"Transistor","1","Q151","2SD468","TO-92","","Obsolete - reuse old part"
 "Connector","1","J3","Molex Mini-Fit Jr","","39-29-1227","https://mou.sr/4noydsk"
