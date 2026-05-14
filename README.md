@@ -18,7 +18,7 @@ This two-layer 'ATX Conversion Board' PCB enables you rebuild a failed Delta SMP
 
 <img width="800" height="753" alt="Front" src="https://github.com/user-attachments/assets/2783f31d-6903-49c3-a776-52c44408fd85" />
 
-The PCB replicates the exact dimensions of the original Delta lower PCB, securing to the chassis just as the original. It's designed to have the internals of one of the following Seasonic-based ATX power supplies stood off above it as a mezzanine board:
+The PCB replicates the exact dimensions of the Delta's lower PCB, securing to the chassis just as the original. It's designed to have the internals of one of the following Seasonic-based ATX power supplies stood off above it as a mezzanine board:
 
 - Antec EarthWatts EA-380 / EA-430 / EA-500 (without 'D' suffix)
 - Seasonic SS-350ET / SS-400ET / SS-500ET (ES suffix also OK)
