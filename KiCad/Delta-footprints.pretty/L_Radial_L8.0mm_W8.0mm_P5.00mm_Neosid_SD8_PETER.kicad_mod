@@ -1,0 +1,130 @@
+(footprint "L_Radial_L8.0mm_W8.0mm_P5.00mm_Neosid_SD8_PETER"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor, Radial series, Radial, pin pitch=5.00mm, , length*width=8*8mm^2, Neosid, SD8, http://www.neosid.de/produktblaetter/neosid_Festinduktivitaet_Sd8.pdf")
+	(tags "Inductor Radial series Radial pin pitch 5.00mm  length 8mm width 8mm Neosid SD8")
+	(property "Reference" "REF**"
+		(at 4.999599 9.2 0)
+		(layer "F.SilkS")
+		(uuid "9a360312-51f4-4ee7-8e87-e7842816bc10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L"
+		(at 2.5 10.5 0)
+		(layer "F.Fab")
+		(uuid "f945d497-b87b-4036-be8d-8f6f5a29d72e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d3c7b80-670c-4335-9c95-862d0cb936e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Inductor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aaf307ac-665e-4db6-8ee2-a1ec077104f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -0.875401 -7.408489)
+		(end 10.874599 7.341511)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "afc9ee62-d36c-4d1f-9c58-4aef621bc162")
+	)
+	(fp_rect
+		(start -1 -7.5)
+		(end 11 7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "86eee507-1ee6-4cda-844d-27af77926e95")
+	)
+	(fp_rect
+		(start -0.75 -7.25)
+		(end 10.75 7.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6865ae00-660c-4167-acea-2ee1ddd9b36f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5 -3 0)
+		(layer "F.Fab")
+		(uuid "24698c2f-1fa2-4127-92fc-e206f4c0198a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aebdc2a3-7c4a-4aae-8275-635320c17527")
+	)
+	(pad "2" thru_hole circle
+		(at 10 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3e7609a7-322d-40c4-b723-425a57e2dc9f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Radial_L8.0mm_W8.0mm_P5.00mm_Neosid_SD8.wrl"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

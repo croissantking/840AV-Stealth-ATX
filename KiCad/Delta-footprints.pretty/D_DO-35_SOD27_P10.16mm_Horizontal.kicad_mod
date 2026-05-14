@@ -1,0 +1,339 @@
+(footprint "D_DO-35_SOD27_P10.16mm_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
+	(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
+	(property "Reference" "REF**"
+		(at 5.08 -2.12 0)
+		(layer "F.SilkS")
+		(uuid "b39b59ea-5b9a-40e3-b071-9eaf6352308f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 5.08 2.12 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba1f03aa-2c18-43bd-a484-b7076c3fc569")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/1n5345b.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64c9d08e-29e7-4381-8c08-0c11cf8bf2f1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "1N5228B"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2d2cc46-26bb-4252-95da-3f89be421986")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.04 0)
+		(end 2.96 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a1d0d7b-98ee-48db-b878-86fa3d485b33")
+	)
+	(fp_line
+		(start 2.96 -1.12)
+		(end 2.96 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4ff984b4-4219-489f-9770-87815cadd90d")
+	)
+	(fp_line
+		(start 2.96 1.12)
+		(end 7.2 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1478a09b-d0ef-4c18-8d8a-1ff0e58464ef")
+	)
+	(fp_line
+		(start 3.56 -1.12)
+		(end 3.56 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db9ada28-b6a0-47ed-848d-fef0ca65895b")
+	)
+	(fp_line
+		(start 3.68 -1.12)
+		(end 3.68 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57a29fab-e6cb-448f-85b7-da681c7fff3c")
+	)
+	(fp_line
+		(start 3.8 -1.12)
+		(end 3.8 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ab500d0-cc8b-4f91-b8b6-e449314c7a2f")
+	)
+	(fp_line
+		(start 7.2 -1.12)
+		(end 2.96 -1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4534d1ee-514e-4ecd-a376-f2d65f6e3fe1")
+	)
+	(fp_line
+		(start 7.2 1.12)
+		(end 7.2 -1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa79c42b-28cb-4145-8227-1723368d0afa")
+	)
+	(fp_line
+		(start 9.12 0)
+		(end 7.2 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "42c38a0a-740b-43cc-bace-97b32c956f3a")
+	)
+	(fp_line
+		(start -1.05 -1.25)
+		(end -1.05 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4586040f-a423-436f-ac60-c274edfc9486")
+	)
+	(fp_line
+		(start -1.05 1.25)
+		(end 11.21 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0446140a-4c09-4d6e-9f3b-2eadad9fc7ed")
+	)
+	(fp_line
+		(start 11.21 -1.25)
+		(end -1.05 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cf259384-d102-426f-8fd1-b099d37f8e8c")
+	)
+	(fp_line
+		(start 11.21 1.25)
+		(end 11.21 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7e22c7c8-7da5-4267-a2cd-a2191dcf84fa")
+	)
+	(fp_line
+		(start 0 0)
+		(end 3.08 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e087f2e5-d0a6-43f2-a948-0b8a0a569309")
+	)
+	(fp_line
+		(start 3.08 -1)
+		(end 3.08 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a9b37620-6646-4cbe-8c00-e38abfdaf66b")
+	)
+	(fp_line
+		(start 3.08 1)
+		(end 7.08 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c6bd0782-248b-4521-83fe-41c1cce53936")
+	)
+	(fp_line
+		(start 3.58 -1)
+		(end 3.58 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b0b1ca6-f399-4697-8820-1056cdf37117")
+	)
+	(fp_line
+		(start 3.68 -1)
+		(end 3.68 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e28b59e9-3172-4bbd-99f5-e3a2ab2e211d")
+	)
+	(fp_line
+		(start 3.78 -1)
+		(end 3.78 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e3c8e38c-2836-472b-b8d0-623e67eb39eb")
+	)
+	(fp_line
+		(start 7.08 -1)
+		(end 3.08 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bc26792d-5e92-43b0-b9f7-2cda4b030e1d")
+	)
+	(fp_line
+		(start 7.08 1)
+		(end 7.08 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c3ac38a1-60db-4287-8216-33c39dd41652")
+	)
+	(fp_line
+		(start 10.16 0)
+		(end 7.08 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b988c5d-2e38-42fd-b9e2-9ea932945677")
+	)
+	(fp_text user "K"
+		(at 0 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "c091a88e-077c-4571-bab5-cc7b4949d82c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "K"
+		(at 0 -1.8 0)
+		(layer "F.Fab")
+		(uuid "89481590-bbd0-4133-970f-34e76be111c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.38 0 0)
+		(layer "F.Fab")
+		(uuid "ec0a07c7-a0a7-4043-994b-46d0a94bdb62")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "633c76a5-22fd-4024-b72c-7d8e539f7a4d")
+	)
+	(pad "2" thru_hole oval
+		(at 10.16 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7ca59d60-c390-4c91-ac83-8e0458cb3e95")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P10.16mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
