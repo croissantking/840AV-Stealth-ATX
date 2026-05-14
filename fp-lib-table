@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Delta-footprints")(type "KiCad")(uri "${KIPRJMOD}/Delta-footprints.pretty")(options "")(descr ""))
+)
