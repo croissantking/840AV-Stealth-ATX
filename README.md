@@ -16,7 +16,7 @@ If you are not experienced with mains-powered or high-voltage electronics, do no
 -
 This two-layer 'ATX Conversion Board' PCB enables you rebuild a failed Delta SMP-220DB Power Supply, found in your Apple Macintosh Quadra 800/840AV or Power Macintosh 8100, with easily obtainable second hand parts.
 
-<img width="800" height="753" alt="Front" src="https://github.com/user-attachments/assets/2783f31d-6903-49c3-a776-52c44408fd85" />
+<img width="811" height="763" alt="Front" src="https://github.com/user-attachments/assets/1732d671-cdc9-4589-a822-ac26c96d6976" />
 
 The PCB replicates the exact dimensions of the Delta's lower PCB, securing to the chassis just as the original. It's designed to have the internals of one of the following Seasonic-based ATX power supplies stood off above it as a mezzanine board:
 
