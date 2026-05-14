@@ -62,7 +62,7 @@ Detach this little washer-type part from the original PCB and solder it here.
 
 <img width="1024" height="996" alt="populated" src="https://github.com/user-attachments/assets/64c758e3-02f5-47f8-a480-3315fa9ad85e" />
 
-Now that the Conversion Board is populated you can fit the 4x standoffs. Place the ATX PCB on top and loosely screw it down with just the two standoffs nearest the lower edge.
+Now that the Conversion Board is populated you can fit the 4x standoffs. Place the ATX PCB on top and loosely screw it down with just the two standoffs marked '1' and '2' nearest the lower edge.
 
 <img width="4032" height="3024" alt="IMG_0638" src="https://github.com/user-attachments/assets/d00f997d-687a-489b-8b96-7872bb570383" />
 
