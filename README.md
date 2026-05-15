@@ -46,7 +46,7 @@ Assembly
 -
 Here are the steps needed to assemble your rebuilt power supply. Note that I'm working with a slightly different pre-release board layout.
 
-<img width="1050" alt="Circuits" src="https://github.com/user-attachments/assets/f6084280-349a-463f-82d0-7e8cca01b1db" />
+<img width="1050" alt="key" src="https://github.com/user-attachments/assets/25cc3140-e614-4ef7-9eb1-58c6e1e38c17" />
 
 Once you have the bare Conversion Board PCB in your hands, decide if you'll be populating the fan circuit and the CRT relay as shown in the key above. Both circuits are optional. If you are not populating the fan control circuit then your fan should be connected to the ATX PCB. The through hole parts should be taken from the original Delta PSU (apart from the fan header), while SMDs should be newly obtained.
 
