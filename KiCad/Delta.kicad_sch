@@ -1525,7 +1525,7 @@
 				(pin power_out line
 					(at -5.08 5.08 0)
 					(length 3.81)
-					(name "CRT_L"
+					(name "S/L"
 						(effects
 							(font
 								(size 1.27 1.27)

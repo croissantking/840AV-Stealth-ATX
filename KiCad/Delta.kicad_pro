@@ -485,7 +485,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "production3/",
+      "plot": "../PRODUCTION V1.2/",
       "pos_files": "./",
       "specctra_dsn": "",
       "step": "",
